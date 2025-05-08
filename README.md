@@ -3,7 +3,7 @@ KELOMPOK :
 2. REZKI RAHMAT ALFI
 3. SYUKRI IHSAN
 
-APLIKASI : Sistem Informasi Peminjaman Proyektor
+Aplikasi : Sistem Informasi Peminjaman Proyektor
 
 Deskripsi :
 
