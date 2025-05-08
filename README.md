@@ -1,7 +1,4 @@
-KELOMPOK : 
-1. NIA NABILLA
-2. REZKI RAHMAT ALFI
-3. SYUKRI IHSAN
+
 
 Aplikasi : Sistem Informasi Peminjaman Proyektor
 
@@ -15,6 +12,12 @@ Fitur-Fitur Utama (mahasiswa, staff bagian umum) :
 3. Staff bagian umum: peminjaman proyektor (input data peminjam, proyektor, dll) 
 4. Staff bagian umum: menambahkan proyektor
 5. Pencarian data berdasarkan kode proyektor
+
+
+KELOMPOK : 
+1. NIA NABILLA
+2. REZKI RAHMAT ALFI
+3. SYUKRI IHSAN
 
 
 
