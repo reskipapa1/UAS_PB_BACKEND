@@ -34,7 +34,7 @@ export const protect = async (req: Request, res: Response, next: NextFunction) =
     const decoded = verifyToken(token) as { id: number; role: string };
     req.User = { id: decoded.id, role: decoded.role };
 
-    console.log('User role:', req.User?.role);
+    console.log('User role:', decoded);
 
     next();
   } catch (error) {
