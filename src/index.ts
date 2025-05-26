@@ -1,5 +1,5 @@
 import express from 'express';
-import cors from 'cors';  // import cors
+import cors from 'cors';  
 import kegiatanRoutes from './routes/kegiatanroutes';
 import pjRoutes from './routes/pjroutes';
 import authRoutes from './routes/authroutes';
@@ -10,7 +10,7 @@ import riwayatRoutes from './routes/riwayatroutes';
 const app = express();
 
 app.use(cors({
-  origin: 'http://localhost:3000',  // sesuaikan dengan alamat frontend-mu
+  origin: '*', // boleh disesuaikan nanti
   methods: ['GET', 'POST', 'PUT','PATCH', 'DELETE'],
   credentials: true
 }));
@@ -24,6 +24,6 @@ app.use('/transaksi', transaksiRoutes);
 app.use('/riwayat', riwayatRoutes);
 app.use('/auth', authRoutes);
 
-app.listen(3001, () => {
-  console.log('Server running on http://localhost:3001');
+app.listen(3001, '0.0.0.0', () => {
+  console.log('Server running on http://0.0.0.0:3001');
 });
